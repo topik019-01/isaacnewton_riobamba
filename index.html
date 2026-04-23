@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Isaac Newton — Centro de Capacitación en Riobamba, Ecuador. +13 años preparando estudiantes para el ingreso universitario con docentes de élite y metodologías innovadoras.">
+  <title>Isaac Newton | Centro de Capacitación — Riobamba, Ecuador</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./logo.jpg" type="image/jpeg">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" class="header-logo" id="header-logo">
+        <img src="./logo.jpg" alt="Isaac Newton Logo">
+        <div class="header-logo-text">ISAAC <span>NEWTON</span></div>
+      </a>
+      
+      <a href="https://wa.me/593990444477" target="_blank" rel="noopener noreferrer" class="btn-contact" id="btn-get-in-touch" style="text-decoration: none; display: inline-block;">
+        <span style="display: flex; align-items: center; gap: 8px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+          Contáctate con un asesor
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="container">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Centro de Capacitación — Riobamba
+        </div>
+
+        <h1>
+          Prepárate para el
+          <span class="highlight">ingreso a la universidad</span>
+        </h1>
+
+        <p class="hero-text">
+          Con más de <strong>13 años de trayectoria</strong>, hemos capacitado a miles de estudiantes 
+          para alcanzar su ingreso universitario. Metodologías innovadoras, docentes de élite y 
+          acompañamiento integral para tu éxito académico.
+        </p>
+
+        <div class="hero-cta">
+          <button class="btn-primary" id="btn-hero-cta">
+            Más Información <span class="arrow">→</span>
+          </button>
+          <a href="https://wa.me/593990444477" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="btn-hero-secondary">
+            ☎ Contáctanos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay-2">
+        <div class="eagle-scene">
+          <div class="eagle-glow"></div>
+          <div class="orbit-ring orbit-ring-1"><div class="orbit-dot"></div></div>
+          <div class="orbit-ring orbit-ring-2"><div class="orbit-dot"></div></div>
+          <div class="eagle-float">
+            <img src="../aguila_icono.png" alt="Isaac Newton — Águila Dorada">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="features-header reveal">
+        <div class="section-label">Nuestros Pilares</div>
+        <h2 class="section-title">¿Por Qué Elegir <span class="gold">Isaac Newton</span>?</h2>
+      </div>
+
+      <div class="bento-grid">
+        <!-- Banner 1: Acompañamiento Completo (Clickable → Modal 8 Pasos) -->
+        <div class="bento-card bento-card--clickable reveal reveal-delay-1" id="feature-1" data-modal="modal-pasos" role="button" tabindex="0" aria-label="Ver los 8 pasos para el ingreso universitario">
+          <div class="bento-icon">🤝</div>
+          <h3>Acompañamiento Completo</h3>
+          <p>Acompañamiento en todo el proceso de formación para ingreso a la universidad. Estamos contigo en cada paso.</p>
+          <span class="bento-card__cta">Ver los 8 Pasos <span class="arrow">→</span></span>
+        </div>
+
+        <!-- Banner 2: Metodología Innovadora -->
+        <div class="bento-card reveal reveal-delay-2" id="feature-2">
+          <div class="bento-icon">💡</div>
+          <h3>Metodología Innovadora</h3>
+          <p>Metodologías de enseñanza innovadoras que garantizan un aprendizaje efectivo y duradero.</p>
+          <p class="bento-card__extra">Contamos con simuladores avanzados para evaluar tu conocimiento constantemente.</p>
+        </div>
+
+        <!-- Banner 3: Beneficios Exclusivos -->
+        <div class="bento-card reveal reveal-delay-3" id="feature-3">
+          <div class="bento-icon">⭐</div>
+          <h3>Beneficios Exclusivos</h3>
+          <p>Acceso a beneficios exclusivos para nuestros alumnos: material adicional, Gift Card con beneficios exclusivos y más.</p>
+        </div>
+
+        <!-- Banner 4: Prácticas Universitarias (Nuevo) -->
+        <div class="bento-card reveal reveal-delay-4" id="feature-4">
+          <div class="bento-icon">🏛️</div>
+          <h3>Prácticas Universitarias</h3>
+          <p>Vive la experiencia universitaria antes de ingresar. Prepárate con prácticas reales que fortalecen tu perfil académico.</p>
+        </div>
+
+        <!-- Banner 5: Docentes de Élite (Movido al final, preparado para ser clickable) -->
+        <div class="bento-card bento-card--clickable bento-card--future reveal reveal-delay-5" id="feature-5" role="button" tabindex="0" aria-label="Conoce a nuestros docentes de élite">
+          <div class="bento-icon">🎓</div>
+          <h3>Docentes de Élite</h3>
+          <p>Profesores altamente capacitados con amplia experiencia en preparación universitaria.</p>
+          <span class="bento-card__cta">Próximamente <span class="arrow">→</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stat-item reveal">
+        <div class="stat-orbit">
+          <div class="stat-number-wrap">
+            <span class="stat-number" data-target="13">0</span><span class="stat-suffix">+</span>
+          </div>
+        </div>
+        <div class="stat-label">Años</div>
+        <div class="stat-desc">Experiencia Comprobada</div>
+      </div>
+
+      <div class="stat-item reveal reveal-delay-2">
+        <div class="stat-orbit">
+          <div class="stat-number-wrap">
+            <span class="stat-number" data-target="1000">0</span><span class="stat-suffix">+</span>
+          </div>
+        </div>
+        <div class="stat-label">Alumnos</div>
+        <div class="stat-desc">Capacitados Con Éxito</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="pricing-header reveal">
+        <div class="section-label">Planes & Precios</div>
+        <h2 class="section-title">Elige Tu <span class="gold">Plan Ideal</span></h2>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card reveal reveal-delay-1" id="plan-a">
+          <span class="price-badge">Plan A</span>
+          <h3>LUNES A VIERNES</h3>
+          <p class="price-schedule">Horarios:</p>
+          <ul class="price-schedule-list">
+            <li>8 am - 10 am</li>
+            <li>10 am - 12 pm</li>
+            <li>3 pm - 5 pm</li>
+          </ul>
+          <div class="price-original">Precio Normal: $350</div>
+          <div class="price-breakdown">($150 + $150 + $50)</div>
+          <div class="price-promo-label">🔥 Promo Abril</div>
+          <div class="price-amount">$280</div>
+          <div class="price-period">Al contado</div>
+          <ul class="price-features">
+            <li>Clases presenciales diarias</li>
+            <li>Material de estudio incluido</li>
+            <li>Simulacros de examen</li>
+          </ul>
+          <a href="https://wa.me/593990444477" target="_blank" rel="noopener noreferrer" class="btn-plan btn-plan-outline" id="btn-plan-a" style="text-decoration: none; text-align: center;">Contáctanos para más info</a>
+        </div>
+
+        <div class="price-card reveal reveal-delay-2" id="plan-b">
+          <span class="price-badge">Plan B</span>
+          <h3>HORARIOS FLEXIBLES</h3>
+          <p class="price-schedule">Horarios:</p>
+          <ul class="price-schedule-list">
+            <li>Lun/Mié/Vie: 5 pm - 7 pm</li>
+            <li>Sábados: 8 am - 12 pm</li>
+            <li>Domingos: 9 am - 1 pm</li>
+          </ul>
+          <div class="price-original">Precio Normal: $300</div>
+          <div class="price-promo-label">🔥 Promo Abril</div>
+          <div class="price-amount">$240</div>
+          <div class="price-period">Al contado</div>
+          <ul class="price-features">
+            <li>Horario flexible</li>
+            <li>Ideal para quienes trabajan</li>
+            <li>Material de estudio incluido</li>
+          </ul>
+          <a href="https://wa.me/593990444477" target="_blank" rel="noopener noreferrer" class="btn-plan btn-plan-outline" id="btn-plan-b" style="text-decoration: none; text-align: center;">Contáctanos para más info</a>
+        </div>
+
+        <div class="price-card featured reveal reveal-delay-3" id="plan-intensivo">
+          <span class="price-badge">★ Recomendado</span>
+          <h3>PLAN A INTENSIVO</h3>
+          <p class="price-schedule">LUNES A VIERNES — Horarios:</p>
+          <ul class="price-schedule-list">
+            <li>8 am - 12 pm</li>
+            <li>3 pm - 7 pm</li>
+          </ul>
+          <div class="price-original">Precio Normal: $400</div>
+          <div class="price-promo-label">🔥 Promo Abril</div>
+          <div class="price-amount">$350</div>
+          <div class="price-period">Al contado</div>
+          <ul class="price-features">
+            <li>Doble jornada intensiva</li>
+            <li>Preparación acelerada</li>
+            <li>Material premium incluido</li>
+            <li>Tutoría personalizada</li>
+          </ul>
+          <a href="https://wa.me/593990444477" target="_blank" rel="noopener noreferrer" class="btn-plan btn-plan-gold" id="btn-plan-intensivo" style="text-decoration: none; text-align: center;">Contáctanos para más info</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="cta">
+    <div class="container reveal">
+      <h2>¿Listo Para <span class="gold">Transformar</span> Tu Futuro?</h2>
+      <p>Únete a los más de 1000 estudiantes que ya alcanzaron su meta universitaria con Isaac Newton.</p>
+      
+      <button class="btn-cta-big" id="btn-cta-final" onclick="window.open('https://wa.me/593990444477', '_blank')">
+        Contáctanos Ahora <span class="arrow">→</span>
+      </button>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/IsaacNewton.ec" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V7.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/isaac_newton.ec?fbclid=IwY2xjawRVtFFleHRuA2FlbQIxMABicmlkETFyMUxpY0dEbU42VUU1NG53c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHl024T8b_zKF6-95C98F8eDoQ48rOpX4Glt6R9cNJpN9wymMdjhX5xbomRRq_aem_z8uETbKpN4W94AO2XDnQEw" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@isaac_newton.ec?fbclid=IwY2xjawRVtFRleHRuA2FlbQIxMABicmlkETFyMUxpY0dEbU42VUU1NG53c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhqcexYRDqjqSoOF6qYFwGFv63NagApypa3yKw8ZmOj2REpFBvt-zheqz4Mu_aem_3HFTN0e2cVIUs73GZAPCTg" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93v7.2c0 1.96-.5 3.95-1.55 5.6-1.4 2.19-3.72 3.63-6.28 3.96-2.58.33-5.28-.27-7.23-2.02-2.11-1.9-3.05-4.9-2.22-7.69.83-2.8 3.03-5.1 5.86-5.83 2.06-.53 4.26-.26 6.03.95v4.36c-1.02-.6-2.28-.86-3.41-.5-1.39.44-2.45 1.62-2.73 3.02-.27 1.4.15 2.87 1.13 3.86 1.05 1.05 2.65 1.34 4.07.7 1.4-.64 2.3-2.12 2.3-3.66v-13.4H12.525z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p>© 2026 <span>Isaac Newton</span> — Centro de Capacitación · Riobamba, Ecuador</p>
+    </div>
+  </footer>
+
+  <!-- ===== MODAL: 8 Pasos para el Ingreso Universitario ===== -->
+  <div class="modal-overlay" id="modal-pasos" aria-hidden="true" role="dialog" aria-labelledby="modal-pasos-title">
+    <div class="modal-container">
+      <button class="modal-close" id="modal-close" aria-label="Cerrar">&times;</button>
+      <h2 id="modal-pasos-title" class="modal-title">Los <span class="gold">8 Pasos</span> para el Ingreso Universitario</h2>
+
+      <div class="steps-timeline">
+        <!-- Paso 1 -->
+        <div class="step-item">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h4>Registro Nacional</h4>
+            <p>Realiza tu registro en la plataforma nacional como primer paso hacia tu ingreso.</p>
+            <a href="#" class="step-btn">¡Dale clic para acceder a la página del Registro Nacional!</a>
+          </div>
+        </div>
+        <!-- Paso 2 -->
+        <div class="step-item">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h4>Registro Social</h4>
+            <p>Completa tu registro socioeconómico para acceder a beneficios y cupos.</p>
+            <a href="#" class="step-btn">¡Dale clic para acceder a la página del Registro Social!</a>
+          </div>
+        </div>
+        <!-- Paso 3 -->
+        <div class="step-item">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h4>Inscripción a la Universidad</h4>
+            <p>Inscríbete en la universidad de tu preferencia y elige tu carrera ideal.</p>
+          </div>
+        </div>
+        <!-- Paso 4 -->
+        <div class="step-item">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h4>Evaluación</h4>
+            <p>Presenta tu evaluación de ingreso. ¡Aquí es donde tu preparación marca la diferencia!</p>
+          </div>
+        </div>
+        <!-- Paso 5 -->
+        <div class="step-item">
+          <div class="step-number">5</div>
+          <div class="step-content">
+            <h4>Postulación</h4>
+            <p>Postula a las carreras y universidades disponibles según tu puntaje obtenido.</p>
+            <a href="#" class="step-btn">¡Dale clic para acceder a la página de Aceptación de Cupo!</a>
+          </div>
+        </div>
+        <!-- Paso 6 -->
+        <div class="step-item">
+          <div class="step-number">6</div>
+          <div class="step-content">
+            <h4>Asignación de Cupo</h4>
+            <p>Recibe tu asignación de cupo según tu puntaje y las opciones de carrera seleccionadas.</p>
+          </div>
+        </div>
+        <!-- Paso 7 -->
+        <div class="step-item">
+          <div class="step-number">7</div>
+          <div class="step-content">
+            <h4>Aceptación de Cupo</h4>
+            <p>Acepta tu cupo asignado para confirmar tu ingreso a la universidad.</p>
+            <a href="#" class="step-btn">¡Dale clic para acceder a la página de Aceptación de Cupo!</a>
+          </div>
+        </div>
+        <!-- Paso 8 -->
+        <div class="step-item">
+          <div class="step-number">8</div>
+          <div class="step-content">
+            <h4>Matrícula al Curso de Nivelación</h4>
+            <p>Matricúlate en el curso de nivelación y da el primer paso dentro de tu nueva universidad. ¡Felicidades!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
