@@ -187,7 +187,7 @@ button { cursor: pointer; border: none; font-family: var(--font-body); }
   position: absolute;
   inset: -25px; 
   background-image: 
-    linear-gradient(rgba(5, 5, 5, 0.70), rgba(5, 5, 5, 0.70)), 
+    linear-gradient(rgba(5, 5, 5, 0.60), rgba(5, 5, 5, 0.60)), 
     url('imagen portada.png');
   background-size: cover;
   background-position: center;
