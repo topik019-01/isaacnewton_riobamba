@@ -185,16 +185,16 @@ button { cursor: pointer; border: none; font-family: var(--font-body); }
 .hero::before {
   content: '';
   position: absolute;
-  inset: -30px; 
+  inset: -20px; 
   background-image: 
-    linear-gradient(rgba(5, 5, 5, 0.9), rgba(5, 5, 5, 0.9)), 
+    linear-gradient(rgba(5, 5, 5, 0.6), rgba(5, 5, 5, 0.6)), 
     url('imagen portada.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(10px);
+  filter: blur(3px);
   z-index: -1; /* Se mantiene detrás del contenido, pero ahora es visible */
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .hero-bg-grid {
