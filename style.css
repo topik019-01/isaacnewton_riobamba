@@ -1905,3 +1905,4 @@ button { cursor: pointer; border: none; font-family: var(--font-body); }
 .social-icon:hover svg {
   transform: scale(1.15);
 }
+
