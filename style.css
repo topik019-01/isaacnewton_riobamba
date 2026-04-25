@@ -955,72 +955,15 @@ button { cursor: pointer; border: none; font-family: var(--font-body); }
 .price-schedule-list {
   list-style: none;
   padding: 0;
-  margin: 8px 0 20px;
+  margin: 12px 0 36px;
   text-align: center;
 }
 
 .price-schedule-list li {
-  font-size: 0.82rem;
-  color: var(--text-secondary);
-  padding: 4px 0;
-  line-height: 1.6;
-}
-
-.price-original {
   font-size: 0.85rem;
-  color: var(--text-muted);
-  text-decoration: line-through;
-  margin-bottom: 4px;
-}
-
-.price-breakdown {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  margin-bottom: 12px;
-}
-
-.price-promo-label {
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--amber);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 4px;
-}
-
-.price-amount {
-  font-family: var(--font-heading);
-  font-size: 2.4rem;
-  font-weight: 900;
-  background: linear-gradient(135deg, var(--gold-light), var(--amber));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 4px;
-}
-
-.price-period {
-  font-size: 0.78rem;
-  color: var(--text-secondary);
-  margin-bottom: 24px;
-}
-
-.price-cash {
-  font-size: 0.9rem;
-  color: var(--gold-light);
-  margin-top: 8px;
-  margin-bottom: 20px;
-  padding: 8px 14px;
-  border-radius: var(--radius-sm);
-  background: rgba(201, 168, 76, 0.08);
-  border: 1px solid rgba(201, 168, 76, 0.15);
-  text-align: center;
-}
-
-.price-cash strong {
-  font-size: 1.15rem;
-  font-weight: 800;
-  font-family: var(--font-heading);
+  color: var(--text-primary);
+  padding: 5px 0;
+  line-height: 1.6;
 }
 
 .price-features {
