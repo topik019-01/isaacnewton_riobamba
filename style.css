@@ -1220,6 +1220,33 @@ button { cursor: pointer; border: none; font-family: var(--font-body); }
   line-height: 1.6;
 }
 
+/* "Ubícanos" Google Maps Button */
+.btn-ubicanos {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 7px 18px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  background: linear-gradient(135deg, var(--gold), var(--amber));
+  color: #0a0a0a;
+  text-decoration: none;
+  transition: all 0.35s var(--transition-smooth);
+}
+
+.btn-ubicanos:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 20px rgba(201, 168, 76, 0.35);
+}
+
+.btn-ubicanos svg {
+  flex-shrink: 0;
+}
+
 /* Schedule List */
 .footer-schedule-list {
   list-style: none;
